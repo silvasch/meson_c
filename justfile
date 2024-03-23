@@ -9,7 +9,7 @@ run: build
 	./build/notic "$@"
 
 setup:
-	meson setup build
+	meson setup build --reconfigure
 
 clean:
 	rm -rf build
