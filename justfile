@@ -6,7 +6,7 @@ build:
 	cd build && meson compile
 
 run: build
-	./build/notic "$@"
+	./build/hello "$@"
 
 setup:
 	meson setup build --reconfigure
